@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/viewTodosFragment">
+
+    <fragment
+        android:id="@+id/viewTodosFragment"
+        android:name="com.voicubabiciu.proiectandroid.features.home.viewToDos.ViewTodosFragment"
+        android:label="fragment_view_todos"
+        tools:layout="@layout/fragment_view_todos" >
+        <action
+            android:id="@+id/action_viewTodosFragment_to_addToDoFragment"
+            app:destination="@id/addToDoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addToDoFragment"
+        android:name="com.voicubabiciu.proiectandroid.features.home.addToDo.AddToDoFragment"
+        android:label="fragment_add_to_do"
+        tools:layout="@layout/fragment_add_to_do" />
+</navigation>

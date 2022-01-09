@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">L02</string>
+    <string name="value">Value</string>
+    <string name="save">Save</string>
+    <string name="pencil_outline_description">pencil_outline</string>
+    <string name="hello_world_label">Hello World!</string>
+</resources>
