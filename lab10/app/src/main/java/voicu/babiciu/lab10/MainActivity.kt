@@ -1,17 +1,12 @@
-package voicu.babiciu.lab09
+package voicu.babiciu.lab10
 
-import android.app.Activity
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.ktx.storage
-import voicu.babiciu.lab09.databinding.ActivityMainBinding
-import android.provider.MediaStore
+import voicu.babiciu.lab10.databinding.ActivityMainBinding
 
-import android.graphics.Bitmap
-import android.graphics.ImageDecoder
 import android.text.format.DateFormat
 import android.util.Log
 import android.view.View

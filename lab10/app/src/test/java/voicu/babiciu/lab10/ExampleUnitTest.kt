@@ -1,4 +1,4 @@
-package voicu.babiciu.lab09
+package voicu.babiciu.lab10
 
 import org.junit.Test
 

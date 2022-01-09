@@ -8,7 +8,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "voicu.babiciu.lab09"
+        applicationId "voicu.babiciu.lab10"
         minSdk 29
         targetSdk 31
         versionCode 1
