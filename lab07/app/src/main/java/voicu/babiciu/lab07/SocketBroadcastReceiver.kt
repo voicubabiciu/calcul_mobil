@@ -10,7 +10,6 @@ class SocketBroadcastReceiver(private val textView: TextView) :
     override fun onReceive(context: Context?, intent: Intent?) {
         val content =
             "${intent!!.getStringExtra("message")}\n${textView.text}"
-
         textView.text = content
     }
 }

@@ -6,9 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowInsetsAnimationController
+import androidx.activity.OnBackPressedCallback
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.NavigationUI
 import com.google.android.material.snackbar.Snackbar
 import com.voicubabiciu.proiectandroid.R
 import com.voicubabiciu.proiectandroid.databinding.FragmentAddToDoBinding
@@ -21,6 +24,7 @@ class AddToDoFragment : Fragment() {
     private lateinit var binding: FragmentAddToDoBinding
     private lateinit var navController: NavController
     private lateinit var viewModel: AddToDoViewModel
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

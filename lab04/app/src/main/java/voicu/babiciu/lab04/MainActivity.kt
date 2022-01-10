@@ -27,7 +27,5 @@ class MainActivity : AppCompatActivity() {
     private fun generateItems(count: Int = 100):
             List<ItemModel> = List(count) {
         ItemModel("title ${it + 1}", "description ${it + 1}")
-
-
     }
 }

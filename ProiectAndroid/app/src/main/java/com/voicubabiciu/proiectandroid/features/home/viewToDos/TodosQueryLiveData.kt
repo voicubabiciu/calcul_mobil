@@ -12,8 +12,16 @@ class TodosQueryLiveData(private val query: Query) :
 
     private var registration: ListenerRegistration? = null
 
-    override fun onEvent(snapshots: QuerySnapshot?, e: FirebaseFirestoreException?) {
-        Resource(snapshots?:e!!)
+    override fun onEvent(
+        snapshots: QuerySnapshot?,
+        e: FirebaseFirestoreException?
+    ) {
+        value = if (e != null) {
+            Resource(e)
+        } else {
+            Resource(snapshots!!)
+        }
+
     }
 
     override fun onActive() {

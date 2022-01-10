@@ -39,7 +39,6 @@ private lateinit var socketServer:ServerSocketThread;
                 .sendBroadcast(intent)
         }
         socketServer.start()
-
     }
 
     override fun onRebind(intent: Intent) {

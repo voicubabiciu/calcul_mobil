@@ -11,10 +11,6 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import voicu.babiciu.lab07.SocketService.LocalBinder
 import android.text.method.ScrollingMovementMethod
 
-
-
-
-
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private var mServiceBound: Boolean = false

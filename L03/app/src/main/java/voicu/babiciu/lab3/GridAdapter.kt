@@ -50,6 +50,4 @@ class GridAdapter(
     internal class ItemViewHolder {
         var button: TextView? = null
     }
-
-
 }

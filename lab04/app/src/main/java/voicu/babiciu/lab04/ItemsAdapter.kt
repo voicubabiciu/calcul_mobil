@@ -1,8 +1,5 @@
 package voicu.babiciu.lab04
 
-
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
@@ -11,8 +8,8 @@ import voicu.babiciu.lab04.databinding.CardViewDesignBinding
 
 
 class ItemsAdapter(
-    private val itemList: List<ItemModel>, private val
-    onItemClick: ((ItemModel) -> Unit)? = null
+    private val itemList: List<ItemModel>,
+    private val onItemClick: ((ItemModel) -> Unit)? = null
 ) :
     RecyclerView.Adapter<ItemsAdapter.ViewHolder>() {
 

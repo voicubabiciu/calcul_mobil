@@ -12,9 +12,6 @@ import voicu.babiciu.lab08.databinding.ActivityMainBinding
 import java.io.IOException
 import org.json.JSONObject
 
-
-
-
 class MainActivity : AppCompatActivity() {
 
     private val scope = CoroutineScope(Dispatchers.IO)

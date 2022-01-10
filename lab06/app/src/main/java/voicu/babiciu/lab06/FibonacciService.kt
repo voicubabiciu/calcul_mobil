@@ -1,9 +1,8 @@
 package voicu.babiciu.lab06
 
-import android.app.Service
+
 import android.content.Context
 import android.content.Intent
-import android.os.IBinder
 import androidx.core.app.JobIntentService
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 
@@ -12,19 +11,14 @@ import android.widget.Toast
 
 
 class FibonacciService : JobIntentService() {
-
     companion object {
         fun enqueueWork(context: Context, intent: Intent) {
             enqueueWork(context, FibonacciService::class.java, 2, intent)
         }
     }
-
-
     override fun onHandleWork(intent: Intent) {
         val message = intent.getStringExtra("message")
         intent.action = MainActivity.FILTER_ACTION_KEY
-        //This wait can be for downloading, sending a request, decoding a file etc.
-        //This wait can be for downloading, sending a request, decoding a file etc.
 
         val start = SystemClock.uptimeMillis()
         val position: Int = message!!.toInt()

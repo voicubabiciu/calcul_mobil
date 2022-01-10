@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
@@ -17,6 +18,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.firestore.DocumentChange
 import com.voicubabiciu.proiectandroid.R
 import com.voicubabiciu.proiectandroid.databinding.FragmentViewTodosBinding
+import com.voicubabiciu.proiectandroid.features.MainActivity
 import com.voicubabiciu.proiectandroid.features.home.addToDo.ToDoModel
 import dagger.hilt.android.AndroidEntryPoint
 

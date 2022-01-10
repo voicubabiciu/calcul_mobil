@@ -36,6 +36,7 @@ class TodosAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         // sets the text to the textview from our itemHolder class
         holder.titleView.text = itemList[position].title
+        holder.details.text = itemList[position].details
         holder.isDone.isChecked = itemList[position].isDone
         if (itemList[position].isDone) {
             val string= SpannableString(itemList[position].title)
@@ -99,6 +100,7 @@ class TodosAdapter(
     class ViewHolder(todoView: ItemTodoBinding) :
         RecyclerView.ViewHolder(todoView.root) {
         val titleView: TextView = todoView.title
+        val details: TextView = todoView.details
         val isDone: CheckBox = todoView.isDone
     }
 }

@@ -8,15 +8,16 @@
     <fragment
         android:id="@+id/viewTodosFragment"
         android:name="com.voicubabiciu.proiectandroid.features.home.viewToDos.ViewTodosFragment"
-        android:label="fragment_view_todos"
-        tools:layout="@layout/fragment_view_todos" >
+        android:label="Yours To Do"
+        tools:layout="@layout/fragment_view_todos">
         <action
             android:id="@+id/action_viewTodosFragment_to_addToDoFragment"
-            app:destination="@id/addToDoFragment" />
+            app:destination="@id/addToDoFragment"
+            app:popUpTo="@id/viewTodosFragment" />
     </fragment>
     <fragment
         android:id="@+id/addToDoFragment"
         android:name="com.voicubabiciu.proiectandroid.features.home.addToDo.AddToDoFragment"
-        android:label="fragment_add_to_do"
+        android:label="Add To Do"
         tools:layout="@layout/fragment_add_to_do" />
 </navigation>

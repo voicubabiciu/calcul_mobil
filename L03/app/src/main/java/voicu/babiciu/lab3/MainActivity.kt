@@ -25,8 +25,6 @@ class MainActivity : AppCompatActivity() {
         binding.pinGrid.onItemClickListener =
             AdapterView.OnItemClickListener { _, _, position, _ ->
                 binding.pinField.editText?.let {
-
-
                     binding.pinField.error = null
                     if (it.text.length < 4) {
                         val content =
@@ -46,10 +44,7 @@ class MainActivity : AppCompatActivity() {
                             it.setText("")
                         }
                     }
-
-
                 }
             }
-
     }
 }

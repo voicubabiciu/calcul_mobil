@@ -13,7 +13,6 @@ import voicu.babiciu.lab3.databinding.ActivityBookBinding
 import java.util.concurrent.Executors
 
 class BookActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityBookBinding
     private lateinit var book: BookModel
     override fun onCreate(savedInstanceState: Bundle?) {

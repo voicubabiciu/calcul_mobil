@@ -10,15 +10,18 @@ import com.voicubabiciu.l02.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    val getValue = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
-        if (it.resultCode == Activity.RESULT_OK) {
-            it.data?.let { result ->
-                if(result.hasExtra("VALUE")){
-                    binding.tvValue.text = result.getStringExtra("VALUE")
+    val getValue =
+        registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult()
+        ) {
+            if (it.resultCode == Activity.RESULT_OK) {
+                it.data?.let { result ->
+                    if (result.hasExtra("VALUE")) {
+                        binding.tvValue.text = result.getStringExtra("VALUE")
+                    }
                 }
             }
         }
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

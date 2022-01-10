@@ -12,7 +12,10 @@
         android:theme="@style/Theme.ProiectAndroid">
         <activity
             android:name=".features.home.HomeActivity"
-            android:exported="false" />
+            android:parentActivityName=".features.home.HomeActivity"
+            android:exported="false">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".features.home.HomeActivity" />
+        </activity>
         <activity
             android:name=".features.MainActivity"
             android:exported="true">

@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setReceiver() {
         fibonacciReceiver =
-            FibonacciReceiver(binding.inputText, binding.textView)
+            FibonacciReceiver(binding.textView)
         val intentFilter = IntentFilter()
         intentFilter.addAction(FILTER_ACTION_KEY)
         LocalBroadcastManager.getInstance(this)
