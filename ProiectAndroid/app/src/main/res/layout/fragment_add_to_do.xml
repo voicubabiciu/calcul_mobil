@@ -7,7 +7,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.voicubabiciu.proiectandroid.features.home.addToDo.AddToDoViewModel" />
+            type="com.ancafarcas.proiectandroid.features.home.addToDo.AddToDoViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

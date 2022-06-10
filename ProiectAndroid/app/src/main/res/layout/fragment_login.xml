@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.voicubabiciu.proiectandroid.features.login.LoginViewModel" />
+            type="com.ancafarcas.proiectandroid.features.login.LoginViewModel" />
 
     </data>
 

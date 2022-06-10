@@ -1,62 +1,33 @@
 {
   "project_info": {
-    "project_number": "129313665587",
-    "project_id": "devcrew-1530638117236",
-    "storage_bucket": "devcrew-1530638117236.appspot.com"
+    "project_number": "466497826159",
+    "project_id": "todo-e2826",
+    "storage_bucket": "todo-e2826.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:129313665587:android:2d6e1d0d023efbd83b2946",
+        "mobilesdk_app_id": "1:466497826159:android:8cc6f9c550864bbb38cc9a",
         "android_client_info": {
-          "package_name": "com.voicubabiciu.proiectandroid"
+          "package_name": "com.ancafarcas.proiectandroid"
         }
       },
       "oauth_client": [
         {
-          "client_id": "129313665587-9t4rj9l37bs9fb46pqssnuc6q403vmbn.apps.googleusercontent.com",
+          "client_id": "466497826159-uss7l53lgds023ml8jouf1vsaksf5rbg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAPECHCMnYL8U_EbSKCeT3xxJTWg4G4Hew"
+          "current_key": "AIzaSyAmDwCho7JJHmvpkGjd7VCKBK0iZPoNn8M"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "129313665587-9t4rj9l37bs9fb46pqssnuc6q403vmbn.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:129313665587:android:1b3d99cf0631ad863b2946",
-        "android_client_info": {
-          "package_name": "voicu.babiciu.lab09"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "129313665587-9t4rj9l37bs9fb46pqssnuc6q403vmbn.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAPECHCMnYL8U_EbSKCeT3xxJTWg4G4Hew"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "129313665587-9t4rj9l37bs9fb46pqssnuc6q403vmbn.apps.googleusercontent.com",
+              "client_id": "466497826159-uss7l53lgds023ml8jouf1vsaksf5rbg.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

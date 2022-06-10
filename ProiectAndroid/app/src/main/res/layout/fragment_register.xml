@@ -9,7 +9,7 @@
 
         <variable
             name="viewModel"
-            type="com.voicubabiciu.proiectandroid.features.register.RegisterViewModel" />
+            type="com.ancafarcas.proiectandroid.features.register.RegisterViewModel" />
 
 
     </data>
